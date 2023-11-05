@@ -1,0 +1,83 @@
+/* CSS code for above HTML code */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0b0b0b;
+   }
+   
+   header {
+    background-color: #3498db;; /* dark color */
+    padding: 20px;
+   }
+   
+   nav ul {
+    list-style: none;
+    padding: 0;
+   }
+   
+   nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   
+   nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1; /* bright color */
+   }
+   
+   nav ul li a:hover {
+    color: #3498db; /* bright color */
+   }
+   
+   section {
+    padding: 20px;
+   }
+   
+   h1 {
+    font-size: 2em;
+    color: #ecf0f1; /* bright color */
+   }
+   
+   h2 {
+    font-size: 1.5em;
+    color: #3498db; /* bright color */
+   }
+   
+   .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+   }
+   
+   .skill {
+    background-color: white; /* dark color */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+   }
+   
+   .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    color: red;
+   }
+   
+   .portfolio-item {
+    border: 1px solid #ecf0f1; /* bright color */
+    padding: 20px;
+    text-align: center;
+   }
+   
+   .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   footer {
+    background-color: #0a0a0a; /* dark color */
+    padding: 20px;
+   }
